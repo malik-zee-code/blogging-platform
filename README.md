@@ -4,7 +4,24 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, make env file and add the below environment variables:
+
+```bash
+MONGODB_URI="YOUR MONGO URI"
+DB_NAME="DB_NAME"
+NEXTAUTH_URL="ANY URL YOU WANT TO REDIRECT AFTER LOGOUT"
+NEXTAUTH_SECRET="YOUR SECRET KEY"
+```
+
+After your env variables have been initialized you need to run the following command:
+
+```bash
+npm install
+#Or
+npm i
+```
+
+And then run the development server:
 
 ```bash
 npm run dev
