@@ -4,7 +4,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, make env file and add some evviorment variables:
+First, make env file and add the below environment variables:
 
 ```bash
 MONGODB_URI="YOUR MONGO URI"
